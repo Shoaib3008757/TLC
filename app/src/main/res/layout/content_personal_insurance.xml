@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".com.ranglerz.tlc.tlc.Insurance.PersonalInsurance"
+    tools:showIn="@layout/activity_personal_insurance"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/personalInsurance"
+                android:id="@+id/textViewPersonalInsurance"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="26sp"
+                android:layout_marginTop="10dp"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fullnameInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewPersonalInsurance"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/fullnameInsuranceForm"
+                android:hint="@string/fullname"
+                android:layout_below="@+id/textViewPersonalInsurance"
+                android:layout_alignLeft="@+id/addressInsuranceForm"
+                android:layout_alignStart="@+id/addressInsuranceForm"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/addressInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullnameInsuranceFormWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/addressInsuranceForm"
+                android:layout_below="@+id/fullnameInsuranceForm"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/address"
+                android:inputType="text"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/zipcodepersonalWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressInsuranceFormWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/zipcodepersonal"
+                android:layout_below="@+id/addressInsuranceForm"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/zipcode"
+                android:inputType="number"
+                android:maxLength="5"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dobInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/zipcodepersonalWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dobInsuranceForm"
+                android:layout_below="@+id/zipcodepersonal"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/dob"
+                android:focusable="false"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/licensenumberInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dobInsuranceFormWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/licensenumberInsuranceForm"
+                android:layout_below="@+id/dobInsuranceForm"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/tlclicense"
+                android:inputType="text"
+                android:maxLength="20"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phonenumInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/licensenumberInsuranceFormWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/phonenumInsuranceForm"
+                android:layout_below="@+id/licensenumberInsuranceForm"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/phonernumber"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/socialSecurityNumberInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phonenumInsuranceFormWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/socialSecurityNumberInsuranceForm"
+                android:layout_below="@+id/phonenumInsuranceForm"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/ssn"
+                android:inputType="number"
+                android:maxLength="9"
+                android:textSize="20sp"
+                />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ddc"
+                android:layout_below="@+id/socialSecurityNumberInsuranceFormWrapper"
+                android:layout_centerHorizontal="true"
+                android:textSize="26sp"
+                android:text="@string/ddc"
+                android:textColor="@android:color/black"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/ddcradiogroup"
+                android:layout_below="@+id/ddc"
+                android:layout_centerHorizontal="true">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:id="@+id/ddcyes"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:id="@+id/ddcno"
+                    android:textSize="20sp"
+                    />
+
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dateofissueWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ddcradiogroup"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateofissue"
+                android:layout_below="@+id/ddcradiogroup"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:hint="@string/issueddata"
+                android:textSize="20dp"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dateofexpiryWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dateofissueWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/dateofexpiry"
+                android:layout_below="@+id/dateofissue"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:hint="@string/expirydate"
+                android:textSize="20dp"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priorinsurance"
+                android:layout_below="@+id/dateofexpiryWrapper"
+                android:layout_centerHorizontal="true"
+                android:textSize="26sp"
+                android:text="@string/priorinsurance"
+                android:textColor="@android:color/black"
+                />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priorinsuranceradiogroup"
+                android:layout_below="@+id/priorinsurance"
+                android:layout_centerHorizontal="true">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:id="@+id/priorinsuranceyes"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:id="@+id/priorinsuranceno"
+                    android:textSize="20sp"
+                    />
+
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameofcompanyWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/priorinsuranceradiogroup"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameofcompany"
+                android:layout_below="@+id/priorinsuranceradiogroup"
+                android:layout_centerHorizontal="true"
+                android:inputType="text"
+                android:hint="@string/nameofcaompany"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/lengthinsurance"
+                android:layout_below="@+id/nameofcompanyWrapper"
+                android:background="@drawable/dropdown_arrow_drawable"
+                style="@style/spinner_style"
+                android:spinnerMode="dropdown"
+                android:layout_centerHorizontal="true"/>
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/martialstatus"
+                android:text="@string/maritalstatus"
+                android:layout_below="@+id/lengthinsurance"
+                android:layout_centerHorizontal="true"
+                android:textSize="26sp"
+                android:textColor="@android:color/black"
+                />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/martialstatusradiogroup"
+                android:layout_below="@+id/martialstatus"
+                android:layout_centerHorizontal="true">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:id="@+id/maritalstatusyes"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:id="@+id/maritalstatusno"
+                    android:textSize="20sp"
+                    />
+
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/spousenameWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/martialstatusradiogroup"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spousename"
+                android:hint="@string/spousename"
+                android:layout_centerHorizontal="true"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:layout_below="@+id/martialstatusradiogroup"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/vinnumInsuranceFormWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spousenameWrapper"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/vinnumInsuranceForm"
+                android:layout_below="@+id/spousename"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/vinnumber"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/accident"
+                android:layout_below="@+id/vinnumInsuranceFormWrapper"
+                android:layout_centerHorizontal="true"
+                android:textSize="26sp"
+                android:text="@string/accident"
+                android:textColor="@android:color/black"
+                />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/accidentradiogroup"
+                android:layout_below="@+id/accident"
+                android:layout_centerHorizontal="true">
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:id="@+id/accidentyes"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:id="@+id/accidenteno"
+                    android:textSize="20sp"
+                    />
+
+            </RadioGroup>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/personaladdcomentWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/accidentradiogroup"
+                android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:id="@+id/personaladdcoment"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/accidentradiogroup"
+                android:hint="@string/addcomment"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submitbtn"
+                android:id="@+id/submitPersonalInsurance"
+                android:layout_below="@+id/personaladdcomentWrapper"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="30dp"
+                />
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

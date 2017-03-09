@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_llcapplicant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ranglerz.tlc.tlc.com.ranglerz.tlc.tlc.TLCDocument.LLCApplicant"
+    tools:showIn="@layout/activity_llcapplicant"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/llcapplicanttext"
+                android:layout_alignParentTop="true"
+                android:text="@string/llc"
+                android:textSize="26sp"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/selectthefollowing"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/selectthefollowing"
+                android:layout_below="@+id/llcapplicanttext"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+    <Button
+        android:text="@string/takepictureofarticle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/articleoforganization"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/selectthefollowing"
+        android:background="@drawable/radious"
+        android:textColor="@color/buttoncolor"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/articleoforganizationImageView"
+        android:layout_below="@+id/articleoforganization"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+
+    <Button
+        android:text="@string/takepictureofoperation"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/operationagreement"
+        android:layout_centerHorizontal="true"
+       android:layout_below="@+id/articleoforganizationImageView"
+        android:background="@drawable/radious"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/buttoncolor"
+        />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/operationagreementImageView"
+        android:layout_below="@+id/operationagreement"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <Button
+        android:text="@string/takepictureoflistofmember"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listofmembers"
+        android:layout_centerHorizontal="true"
+       android:layout_below="@+id/operationagreementImageView"
+        android:background="@drawable/radious"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/buttoncolor"
+        />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/listofmembersImageView"
+        android:layout_below="@+id/listofmembers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/llcaddcomentWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/listofmembersImageView"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/llcaddcoment"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/listofmembersImageView"
+                android:hint="@string/addcomment"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submitbtn"
+                android:id="@+id/submitllcapplicant"
+                android:layout_below="@+id/llcaddcomentWrapper"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="30dp"
+                />
+
+</RelativeLayout>
+</ScrollView>
+</RelativeLayout>

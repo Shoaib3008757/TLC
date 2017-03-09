@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1020202741584",
+    "firebase_url": "https://tlcapp-7910a.firebaseio.com",
+    "project_id": "tlcapp-7910a",
+    "storage_bucket": "tlcapp-7910a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020202741584:android:7c45732d57974417",
+        "android_client_info": {
+          "package_name": "com.ranglerz.tlc.tlc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020202741584-ghbcsi43lo8ef5pu4hsu7lmdsgn3btqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGeJZP3nmb_b1Chl0dAIX8jbAmzYdV7BY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

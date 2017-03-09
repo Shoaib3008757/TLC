@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/listofadddrivertableid">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/listofadddrivertableidlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/first">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/drivername"
+                    android:textSize="15sp"
+                    android:text="Driver Name:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/second">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverlicensename"
+                    android:textSize="15sp"
+                    android:text="Driver Lic:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverlicenselist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/third">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlclicencename"
+                    android:textSize="15sp"
+                    android:text="TLC Lic:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlclicencelist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/forth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/platenumbername"
+                    android:textSize="15sp"
+                    android:text="Plate No:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/platenumberlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fifth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/policynumbername"
+                    android:textSize="15sp"
+                    android:text="Policy No:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/policyumberlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sixth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/basenamecorporationname"
+                    android:textSize="15sp"
+                    android:text="Base Name:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/basenamecorporationlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+
+
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            >
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/adddriverdelete"
+                android:src="@drawable/delete"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

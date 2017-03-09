@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_edit_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ranglerz.tlc.tlc.EditProfile"
+    tools:showIn="@layout/activity_edit_profile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Edit Profile"
+                android:id="@+id/textView"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fullnameWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_centerHorizontal="true">
+
+
+                <EditText
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fullname"
+                    android:hint="@string/fullname"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:layout_below="@+id/fullnametext"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/addressWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fullnameWrapper"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/address"
+                    android:layout_below="@+id/addresstext"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/address"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/addresszipcodeWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addressWrapper"
+                android:layout_centerHorizontal="true">
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addresszipcode"
+                    android:layout_below="@+id/addresszipcodetext"
+                    android:layout_centerHorizontal="true"
+                    android:maxLength="5"
+                    android:inputType="number"
+                    android:hint="@string/zipcode"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dobWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/addresszipcodeWrapper"
+                android:layout_centerHorizontal="true">
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/dob"
+                    android:layout_below="@+id/addresstextdob"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/dob"
+                    android:focusable="false"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/driverlicenseWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dobWrapper"
+                android:layout_centerHorizontal="true">
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/driverlicense"
+                    android:layout_below="@+id/driverlicensetext"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/driverlicense"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tcllicenseWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/driverlicenseWrapper"
+                android:layout_centerHorizontal="true">
+
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tcllicense"
+                    android:hint="@string/tlclicense"
+                    android:layout_below="@+id/tcllicensetext"
+                    android:inputType="text"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phonenumWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tcllicenseWrapper"
+                android:layout_centerHorizontal="true">
+
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phonenum"
+                    android:layout_below="@+id/phonenumtext"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/phonernumber"
+                    android:maxLength="10"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/ssnWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phonenumWrapper"
+                android:layout_centerHorizontal="true">
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ssn"
+                    android:layout_below="@+id/ssntext"
+                    android:layout_centerHorizontal="true"
+                    android:inputType="number"
+                    android:maxLength="9"
+                    android:hint="@string/ssn"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/emailWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ssnWrapper"
+                android:layout_centerHorizontal="true">
+
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email"
+                    android:layout_below="@+id/emailtext"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/passwordWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emailWrapper"
+                android:layout_centerHorizontal="true">
+
+                <EditText
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/password"
+                    android:layout_below="@+id/passwordtext"
+                    android:layout_centerHorizontal="true"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save Changes"
+                android:id="@+id/savechangebtn"
+                android:layout_below="@+id/passwordWrapper"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="30dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

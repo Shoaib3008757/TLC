@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/first">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summonscheduleid"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/second">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summontype"
+                    android:textSize="15sp"
+                    android:text="Hearing Location:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hearinflocationlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/third">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summonno"
+                    android:textSize="15sp"
+                    android:text="Hearing Date:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hearingdatalist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/forth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summondataate"
+                    android:textSize="15sp"
+                    android:text="Contact Number:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contectnolist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fifth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hearinglocationsummon"
+                    android:textSize="15sp"
+                    android:text="Attorney Rep:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/attorneyreplist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sixth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlclicencesummon"
+                    android:textSize="15sp"
+                    android:text="Remarks:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/remarkslist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/seven">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/platemedallion"
+                    android:textSize="15sp"
+                    android:text="Compliance:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/compliancelist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+
+                    />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"
+            >
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/schedulesummonresultbutton"
+                android:text="Result"
+                android:focusable="false"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SelectOption"
+    tools:showIn="@layout/activity_select_option"
+    android:gravity="center">
+
+
+<!--<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal" android:weightSum="1"  android:id="@+id/firstlinearlayout">-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/insuranceimageview"-->
+        <!--android:src="@drawable/tlcinsurance"-->
+        <!--android:layout_weight="0.5"/>-->
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/documentimageview"-->
+        <!--android:src="@drawable/tlcdocument"-->
+        <!--android:layout_weight="0.5"/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal" android:weightSum="1" android:layout_below="@id/firstlinearlayout"-->
+        <!--android:id="@+id/secondlinearlayout" android:layout_marginTop="16dp">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/carsummonsimageview"-->
+            <!--android:src="@drawable/tlcsummons"-->
+            <!--android:layout_weight="0.5"/>-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/carrentalimageview"-->
+            <!--android:src="@drawable/tlccarrental"-->
+            <!--android:layout_weight="0.5"/>-->
+
+
+
+    <!--</LinearLayout>-->
+
+  <!--<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"-->
+    <!--android:orientation="horizontal" android:weightSum="1" android:layout_below="@id/secondlinearlayout"-->
+      <!--android:id="@+id/thirdlinearlayoout" android:layout_marginTop="16dp">-->
+
+      <!--<ImageView-->
+          <!--android:layout_width="wrap_content"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:id="@+id/carpurchaseimageview"-->
+          <!--android:src="@drawable/tlccarpurchase"-->
+          <!--android:layout_weight="0.5"/>-->
+
+      <!--<ImageView-->
+          <!--android:layout_width="wrap_content"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:id="@+id/reportaccidentimageview"-->
+          <!--android:src="@drawable/tlcreportaccident"-->
+          <!--android:layout_weight="0.5"/>-->
+
+
+    <!--</LinearLayout>-->
+
+    <!--/////-->
+    <!--<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent"-->
+        <!--android:orientation="horizontal"  android:layout_below="@id/thirdlinearlayoout"-->
+        <!--android:id="@+id/forthlinearlayoout" android:layout_marginTop="16dp">-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/finetab"-->
+            <!--android:src="@drawable/notification"-->
+            <!--android:layout_weight="1"/>-->
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+</RelativeLayout>

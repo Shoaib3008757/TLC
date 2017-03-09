@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ranglerz.tlc.tlc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".TlcSplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SelectLanguage"
+            android:label="@string/title_activity_select_language"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateAccount"
+            android:label="@string/title_activity_create_account"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistrationForm"
+            android:label="@string/title_activity_registration_form"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectOption"
+            android:label="@string/title_activity_select_option"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCDocument.TlcDocument"
+            android:label="@string/title_activity_tlc_document"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.Insurance"
+            android:label="@string/title_activity_insurance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.TlcSummons"
+            android:label="@string/title_activity_tlc_summons"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCCarPurchaseRentSale.TlcCarPurchase"
+            android:label="@string/title_activity_tcl_car_purchase"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.ReportAccident.ReportAccident"
+            android:label="@string/title_activity_report_accident"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.TlcInsurance"
+            android:label="@string/title_activity_tlc_insurance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.PersonalInsurance"
+            android:label="@string/title_activity_personal_insurance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.NewSummon"
+            android:label="@string/title_activity_new_summon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <!--
+            <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.MonthlyMonitoring"
+            android:label="@string/title_activity_monthly_monitoring"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.FileApeal"
+            android:label="@string/title_activity_file_apeal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCCarPurchaseRentSale.CarPurchaseRentSale"
+            android:label="@string/title_activity_car_purchase"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.ReportAccident.ReportAccidentForm"
+            android:label="@string/title_activity_report_accident_form"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.FleetManagement"
+            android:label="@string/title_activity_update_replace_driver"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.ReportAccident"
+            android:label="@string/title_activity_report_accident"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.ListOfSummons"
+            android:label="@string/title_activity_summon_update"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".com.ranglerz.tlc.tlc.Message.RadioYellowMedallion" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Message.Notification"
+            android:label="@string/title_activity_radion_yellow_medallion"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.ranglerz.tlc.tlc.notification" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.AddDriver"
+            android:label="@string/title_activity_add_driver"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.CurrentDriverList"
+            android:label="@string/title_activity_current_driver_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.ListofVehicleandVinNumbers"
+            android:label="@string/title_activity_listof_vehicleand_vin_numbers"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCDocument.IndividualsCorporationPartnership"
+            android:label="@string/title_activity_individuals_corporation_partnership"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCDocument.CorporationApplicant"
+            android:label="@string/title_activity_corporation_applicant"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCDocument.PartnershipApplicant"
+            android:label="@string/title_activity_partnership_applicant"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.TLCDocument.LLCApplicant"
+            android:label="@string/title_activity_llcapplicant"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Insurance.AddVehicle"
+            android:label="@string/title_activity_add_vehicle"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SelectOptionNavigation"
+            android:label="@string/title_activity_navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.ScheduleSummon"
+            android:label="@string/title_activity_schedule_summon"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Summons.Result"
+            android:label="@string/title_activity_result"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThankYouScreen"
+            android:label="@string/title_activity_thank_you_screen"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgetPassword"
+            android:label="@string/title_activity_forget_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfile"
+            android:label="@string/title_activity_edit_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.adapters.CurrentDriverListCustomAdapter"
+            android:label="@string/title_activity_current_driver_list_custom_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".com.ranglerz.tlc.tlc.Invoice.Invoice"
+            android:label="@string/title_activity_invoice"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

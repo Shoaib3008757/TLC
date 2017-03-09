@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_individuals_corporation_partnership"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ranglerz.tlc.tlc.com.ranglerz.tlc.tlc.TLCDocument.IndividualsCorporationPartnership"
+    tools:showIn="@layout/activity_individuals_corporation_partnership"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/individulcorporationtext"
+            android:layout_alignParentTop="true"
+            android:text="@string/individual"
+            android:textSize="26sp"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/selectthefollowing"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/selectthefollowing"
+            android:layout_below="@+id/individulcorporationtext"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/takepicturegoveissued"
+        android:id="@+id/goveissued"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/radious"
+        android:layout_below="@id/selectthefollowing"
+        android:textColor="@color/buttoncolor"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/goveissuedImageView"
+        android:layout_below="@+id/goveissued"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepictureallcorporate"
+            android:id="@+id/allcoprateprincipals"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/goveissuedImageView"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/allcoprateprincipalsImageView"
+            android:layout_below="@+id/allcoprateprincipals"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepictureshareholdersorpartners"
+            android:id="@+id/shareholderorpartner"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/allcoprateprincipalsImageView"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/shareholderorpartnerImageView"
+            android:layout_below="@+id/shareholderorpartner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+
+
+        <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/takepictureforhire"
+        android:id="@+id/forhireinsurance"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/shareholderorpartnerImageView"
+        android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/forhireinsuranceImageView"
+        android:layout_below="@+id/forhireinsurance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/takepictureexcessinsuranc"
+        android:id="@+id/excessinsurance"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/forhireinsuranceImageView"
+        android:background="@drawable/radious"
+        android:textColor="@color/buttoncolor"
+        android:layout_marginTop="30dp"/>
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/excessinsuranceImageView"
+        android:layout_below="@+id/excessinsurance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pleaseselectthepicture"
+            android:id="@+id/pleaseselect"
+            android:layout_below="@+id/excessinsuranceImageView"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinneraplicantname"
+            android:background="@drawable/dropdown_arrow_drawable"
+            style="@style/spinner_style"
+            android:spinnerMode="dropdown"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/pleaseselect"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp">
+        </Spinner>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepicturevehiclecertificateoftitle"
+            android:id="@+id/vehiclecertifiacteoftitle"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/spinneraplicantname"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/vehiclecertifiacteoftitleImageView"
+            android:layout_below="@+id/vehiclecertifiacteoftitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepictureviviclecertificateoforign"
+            android:id="@+id/vehiclecertifiacteoforigin"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/vehiclecertifiacteoftitleImageView"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/vehiclecertifiacteoforiginImageView"
+            android:layout_below="@+id/vehiclecertifiacteoforigin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepicturebillofsale"
+            android:id="@+id/billofsale"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/vehiclecertifiacteoforiginImageView"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/billofsaleImageView"
+            android:layout_below="@+id/billofsale"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+           />
+
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepicturevehicleleasing"
+            android:id="@+id/vehicleleasing"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/billofsaleImageView"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/vehicleleasingImageView"
+            android:layout_below="@+id/vehicleleasing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mustsubmit"
+            android:text="@string/mustsubmit"
+            android:layout_below="@+id/vehicleleasingImageView"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"
+           />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/takepicturedmvregistration"
+            android:id="@+id/dmvregistration"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/mustsubmit"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/dmvregistrationImageView"
+            android:layout_below="@+id/dmvregistration"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/individualaddcomentWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dmvregistrationImageView"
+            android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/individualaddcoment"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/dmvregistrationImageView"
+            android:hint="@string/addcomment"
+            android:textSize="20dp"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="1"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:scrollbars="vertical"
+            />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submitbtn"
+            android:id="@+id/submitindividualcorporation"
+            android:layout_below="@+id/individualaddcomentWrapper"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/radious"
+            android:textColor="@color/buttoncolor"
+            android:layout_marginTop="30dp"
+            />
+
+
+
+
+
+
+</RelativeLayout>
+</ScrollView>
+
+
+</RelativeLayout>

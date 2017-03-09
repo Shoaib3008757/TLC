@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".com.ranglerz.tlc.tlc.Summons.NewSummon"
+    tools:showIn="@layout/activity_new_summon"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/NewSummontext"
+                android:layout_alignParentTop="true"
+                android:text="@string/newsummon"
+                android:textSize="26sp"
+                android:inputType="number"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerNewSummon"
+                android:background="@drawable/dropdown_arrow_drawable"
+                style="@style/spinner_style"
+                android:spinnerMode="dropdown"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/NewSummontext"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp">
+            </Spinner>
+
+            <Spinner
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/basesummoncar"
+                android:background="@drawable/dropdown_arrow_drawable"
+                style="@style/spinner_style"
+                android:spinnerMode="dropdown"
+                android:layout_centerHorizontal="true"
+               android:layout_below="@+id/spinnerNewSummon"
+                android:textSize="20dp">
+            </Spinner>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/summonnoNewSummonWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basesummoncar"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/summonnoNewSummon"
+                android:layout_below="@+id/basesummoncar"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/summonno"
+                android:maxLength="15"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/summondateNewSummonWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/summonnoNewSummonWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/summondateNewSummon"
+                android:layout_below="@+id/summonnoNewSummon"
+                android:layout_centerHorizontal="true"
+                android:hint="@string/summondate"
+                android:focusable="false"
+                android:textSize="20dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/tlcDriverLicenseNumberNewSummonWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/summondateNewSummonWrapper"
+                android:layout_centerHorizontal="true">
+
+                       <EditText
+                           android:id="@+id/tlcDriverLicenseNumberNewSummon"
+                           android:layout_width="300dp"
+                           android:layout_height="wrap_content"
+                           android:layout_centerHorizontal="true"
+                           android:layout_below="@+id/summondateNewSummon"
+                           android:hint="@string/tlclicense"
+                           android:inputType="text"
+                           android:maxLength="20"
+                           android:textSize="20dp"
+                           />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/platenumbernewsummonWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tlcDriverLicenseNumberNewSummonWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/platenumbernewsummon"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tlcDriverLicenseNumberNewSummon"
+                android:hint="@string/medallionplate"
+                android:maxLength="8"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/shlpermitholderWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/platenumbernewsummonWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/shlpermitholder"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/platenumbernewsummon"
+                android:hint="@string/shlpermitholder"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/basenubernewsummonWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shlpermitholderWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/basenubernewsummon"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/shlpermitholder"
+                android:hint="@string/basenumber"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/diamondnumbernewsummonWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/basenubernewsummonWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/diamondnumbernewsummon"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/basenubernewsummon"
+                android:hint="@string/Diamondno"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/medallionnoWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/diamondnumbernewsummonWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/medallionno"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/diamondnumbernewsummon"
+                android:hint="@string/medallionBase"
+                android:maxLength="8"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/medallionownernameWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medallionnoWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/medallionownername"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/medallionno"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:hint="@string/medallionownername"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fleetmadallionnameWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/medallionownernameWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/fleetmadallionname"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/medallionownername"
+                android:hint="@string/fleetmedallionname"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/shlpermitnumberWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fleetmadallionnameWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/shlpermitnumber"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/fleetmadallionname"
+                android:hint="@string/strsptshlpermit"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/hearinglocationWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/shlpermitnumberWrapper"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/hearinglocation"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/shlpermitnumber"
+                android:hint="@string/textHearingtime"
+                android:inputType="text"
+                android:textSize="20dp"
+                />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/hearinglocationWrapper"
+                android:text="@string/appearance"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textSize="26sp"
+                android:id="@+id/textapperance"
+                />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textapperance"
+                android:id="@+id/apperanceradiogroup"
+                android:layout_centerHorizontal="true">
+
+                <RadioButton
+                    android:id="@+id/apperanceradiogroupyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:textSize="20dp"
+
+                    />
+                <RadioButton
+                    android:id="@+id/apperanceradiogroupno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:textSize="20dp"
+
+                    />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_below="@+id/apperanceradiogroup"
+                android:text="@string/carseized"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/black"
+                android:textSize="26sp"
+                android:id="@+id/textCarSeizedNewSummon"
+                />
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textCarSeizedNewSummon"
+                android:id="@+id/seizedCarSelectionNewSummon"
+                android:layout_centerHorizontal="true"
+                >
+
+                <RadioButton
+                    android:id="@+id/carSeizedYesNewSummon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/yes"
+                    android:textSize="20dp"
+
+                    />
+                <RadioButton
+                    android:id="@+id/carSeizedNoNewSummon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no"
+                    android:textSize="20dp"
+
+                    />
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/selectthefollowing"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/selectthefollowing"
+                android:layout_below="@+id/seizedCarSelectionNewSummon"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/takepictureSummon"
+                android:id="@+id/takePictureNewSummon"
+                android:layout_below="@+id/selectthefollowing"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="10dp"
+                />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/takePictureNewSummonImageView"
+                android:layout_below="@+id/takePictureNewSummon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/picturecompliance"
+                android:id="@+id/takePicturecompliance"
+                android:layout_below="@+id/takePictureNewSummonImageView"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="32dp"
+                />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/takePicturecomplianceImageView"
+                android:layout_below="@+id/takePicturecompliance"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/addcomentWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/takePicturecomplianceImageView"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/addcoment"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/takePicturecomplianceImageView"
+                android:hint="@string/addcomment"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+                android:layout_marginTop="20dp"
+                />
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submitbtn"
+                android:id="@+id/submitNewSummon"
+                android:layout_below="@+id/addcomentWrapper"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="30dp"
+                />
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

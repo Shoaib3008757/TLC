@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_corporation_applicant"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.ranglerz.tlc.tlc.com.ranglerz.tlc.tlc.TLCDocument.CorporationApplicant"
+    tools:showIn="@layout/activity_corporation_applicant"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/corporationapplicanttext"
+                android:layout_alignParentTop="true"
+                android:text="@string/corporation"
+                android:textSize="26sp"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="@string/selectthefollowing"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/selectthefollowing"
+                android:layout_below="@+id/corporationapplicanttext"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"/>
+
+
+            <Button
+        android:text="@string/certificateincorporation"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/certificateofincorporation"
+        android:layout_below="@+id/selectthefollowing"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/radious"
+        android:textColor="@color/buttoncolor"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/certificateofincorporationImageView"
+        android:layout_below="@+id/certificateofincorporation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:text="@string/corporateminutes"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/corporateminutes"
+        android:background="@drawable/radious"
+        android:textColor="@color/buttoncolor"
+        android:layout_below="@+id/certificateofincorporationImageView"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/corporateminutesImageView"
+        android:layout_below="@+id/corporateminutes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <Button
+        android:text="@string/irsissued"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/anirs"
+        android:layout_below="@+id/corporateminutesImageView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/radious"
+        android:textColor="@color/buttoncolor"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/anirsImageView"
+        android:layout_below="@+id/anirs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/corporationaddcomentWrapper"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/anirsImageView"
+                android:layout_centerHorizontal="true">
+
+            <EditText
+                android:id="@+id/corporationaddcoment"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/anirsImageView"
+                android:hint="@string/addcomment"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:minLines="1"
+                android:gravity="top|left"
+                android:maxLines="10"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+
+                />
+
+            </android.support.design.widget.TextInputLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submitbtn"
+                android:id="@+id/submitcorporationapplicant"
+                android:layout_below="@+id/corporationaddcomentWrapper"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+                android:layout_marginTop="30dp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

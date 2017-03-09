@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">TLC</string>
+    <string name="action_settings">Settings</string>
+    <string name="registration">Registration Form</string>
+    <string name="fullname">Full Name</string>
+    <string name="address">Address</string>
+    <string name="zipcode">Zip Code</string>
+    <string name="dob">DOB (MM-DD-YYYY)</string>
+    <string name="dataofbirth">Date of Birth</string>
+    <string name="tlclicense">TLC License</string>
+    <string name="phonernumber">Phone Number</string>
+    <string name="ssn">Social Security Number</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="takepictureAccidentReport">Select Picture of Accident Report</string>
+    <string name="addcomment">Add Comment</string>
+    <string name="carpurchaswrentsale">Car Purchase / Rent / Sale</string>
+    <string name="forPurchase">Car Purchase</string>
+    <string name="forrent">Car Rent</string>
+    <string name="forsale">Car Sale</string>
+    <string name="model">Model</string>
+    <string name="make">Make</string>
+    <string name="year">Year</string>
+    <string name="color">Color</string>
+    <string name="mileage">Odometer Reading</string>
+    <string name="contact">Contact Number</string>
+    <string name="individual">Individuals Applicant</string>
+    <string name="selectthefollowing">Select the following documents from your phone.</string>
+    <string name="takepicturegoveissued">Government-issued photo ID of applicant</string>
+    <string name="takepictureallcorporate">All corporate principals</string>
+    <string name="takepictureshareholdersorpartners">Shareholders or Partners</string>
+    <string name="takepictureforhire">For-Hire Insurance Certificate (FH-1)</string>
+    <string name="takepictureexcessinsuranc">Excess Insurance Policy if Applicable</string>
+    <string name="takepicturevehiclecertificateoftitle">Vehicle Certificate of title</string>
+    <string name="takepictureviviclecertificateoforign">Vehicle Certificate of Origin</string>
+    <string name="takepicturebillofsale">Bill of Sale</string>
+    <string name="takepicturevehicleleasing">Vehicle Leasing Agreement</string>
+    <string name="takepicturedmvregistration">DMV registration</string>
+    <string name="pleaseselectthepicture">Please Select the picture one of the following in applicants name</string>
+    <string name="corporation">Corporation Applicant</string>
+    <string name="certificateincorporation">Certificate of incorporation</string>
+    <string name="corporateminutes">Corporate minutes listing the names and shares of officers or members</string>
+    <string name="irsissued">IRS issued CP-575 Notice or a 147-C letter</string>
+    <string name="partnership">Partnership Applicant</string>
+    <string name="takepictureofcertificatepartnership">Select Picture of Certificate of partnership</string>
+    <string name="llc">LLC Applicant</string>
+    <string name="takepictureofarticle">Articles of Organization</string>
+    <string name="takepictureofoperation">Operation Agreement</string>
+    <string name="takepictureoflistofmember">List of Members</string>
+    <string name="pleasefile">Please File</string>
+    <string name="inquest">Inquest</string>
+    <string name="motion">Motion</string>
+    <string name="appeal">Appeal</string>
+    <string name="summonno">Summon Number</string>
+    <string name="missedHearingDate">Missed Hearing Date</string>
+    <string name="takepictureofcompliance">Select Picture of Compliance</string>
+    <string name="monthly">Monthly Monitoring</string>
+    <string name="companyname">Base Name/Corporation</string>
+    <string name="Diamondno">Diamond Number</string>
+    <string name="basenumber">Base Number</string>
+    <string name="medallionplate">Medallion/Plate Number</string>
+    <string name="fleetmedallion">Fleet/Medallion Owner Name</string>
+    <string name="numberofvehicle">Number Of Vehicles</string>
+    <string name="newsummon">New Summons</string>
+    <string name="summondate">Date of Summon</string>
+    <string name="textTLCDriverLicenseNumber">TLC License No</string>
+    <string name="textHearingAddress">Hearing Address</string>
+    <string name="textHearingtime">Hearing Location</string>
+    <string name="shlpermitholder">SHL Permit Holder</string>
+    <string name="medallionBase">Medallion Number</string>
+    <string name="medallionownername">Medallion Owner Name</string>
+    <string name="fleetmedallionname">Fleet Medallion Name</string>
+    <string name="strsptshlpermit">SHL Permit Number</string>
+    <string name="appearance">Appearance Required</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="carseized">Car Seized</string>
+    <string name="takepictureSummon">Picture of Summon</string>
+    <string name="picturecompliance">Picture of Compliance</string>
+    <string name="reportaccident">Report Accident</string>
+    <string name="addvehicle">Add Vehicle</string>
+    <string name="platenum">Plate Number</string>
+    <string name="vinnumber">VIN</string>
+    <string name="policynumber">Policy Number</string>
+    <string name="adddriver">Add Driver</string>
+    <string name="driverName">Driver Name</string>
+    <string name="driverlicense">Driver License</string>
+    <string name="whenyou">When You Start Driving</string>
+    <string name="numberofticket">Number of Tickets Received</string>
+    <string name="personalInsurance">Personal Insurance</string>
+    <string name="maritalstatus">Marital Status</string>
+    <string name="voilations">Violations</string>
+    <string name="jobdescription">Job Description</string>
+    <string name="nameofcaompany">Name of Company</string>
+    <string name="priorinsurance">Prior Insurance</string>
+    <string name="accident">Accident</string>
+    <string name="ddc">Defense Driving Course</string>
+    <string name="issueddata">Issue date</string>
+    <string name="expirydate">Expiry date</string>
+    <string name="spousename">Spouse Name</string>
+    <string name="insuraneForm">TLC Insurance Form</string>
+    <string name="einnum">EIN Number</string>
+    <string name="ownername">Owner Name</string>
+    <string name="carMake">Car Make (Optional)</string>
+    <string name="carModel">Car Model (Optional)</string>
+    <string name="carYear">Car Year (Optional)</string>
+    <string name="takepictureutilitybill">Utility Bill</string>
+    <string name="takepicturebaseletter">Base Letter</string>
+    <string name="takepicturessCard">SS Card</string>
+    <string name="takepicturemvtitle">MV50/Title</string>
+    <string name="takepicturesixhrdrivingclass">6 HR Driving Class</string>
+    <string name="ispermit">Is Permit Owned</string>
+    <string name="takepicturepowerattorney">Power Attorney</string>
+    <string name="iscabpolicy">Is CAB Policy</string>
+    <string name="takepicturecertificate">Certificate of Incorporation</string>
+    <string name="takepicturefillingrecipt">Filing Receipt</string>
+    <string name="taxid">Tax ID/EIN number</string>
+    <string name="needfullcoverage">Need full Coverage</string>
+    <string name="notetwenty">Note: $25 for MVR for accurate quotation returnable after you purchase Policy reimburse after Sixty(60) days.</string>
+    <string name="insuranceheading">Insurance</string>
+    <string name="summonheading">TLC Summons</string>
+    <string name="applicationclassheading">TLC Application &amp; Classes</string>
+    <string name="buyrentcarheading">Buy / Rent / Sale Car</string>
+    <string name="reportaccidentheading">Report Accident</string>
+    <string name="messageheading">Message</string>
+    <string name="schedulesummonheading">Scheduled Summons &amp; Result</string>
+    <string name="monthlymonitoringheading">Monthly Monitoring For Summons</string>
+    <string name="inquestmotionappealheading">File Inquest , Motion , Appeal</string>
+    <string name="tlcinsuranceheading">TLC Insurance</string>
+    <string name="fleetmanagmentheading">Fleet Management</string>
+    <string name="loginbtn">Log In</string>
+    <string name="createaccountbtn">Create Account</string>
+    <string name="signinbtn">Sign In</string>
+
+    <string name="submitbtn">Submit</string>
+
+
+    <string name="currentdriverlist">Current Driver List</string>
+    <string name="listofvehicles">List of Vehicles</string>
+    <string name="loginform">Login</string>
+    <string name="takepictureshlpermit">SHL Permit Copy</string>
+    <string name="takepictureshlpermitreceipt">SHL Permit Receipt</string>
+    <string name="mustsubmit">Must submit for vehicles registered outside of NY</string>
+
+
+    <string-array name="Select_Language">
+        <item>Select Languge</item>>
+        <item>Spanish</item>
+        <item>English</item>
+        <item>Urdu</item>
+        <item>Arabic</item>
+    </string-array>
+
+
+    <string-array name="Car_purchase_rent_sale">
+        <item>Select Your Vehicle</item>>
+        <item>Medallion</item>
+        <item>Black Car</item>
+        <item>Car SUV</item>
+        <item>Green Cab</item>
+        <item>Limousine</item>
+        <item>Taxi</item>
+    </string-array>
+
+
+    <string-array name="applicant_name">
+        <item>One of the following applicant’s name</item>>
+        <item>Vehicle Certificate of Title</item>
+        <item>Vehicle Certificate of Origin</item>
+        <item>Bill of Sale</item>
+        <item>Vehicle Leasing Agreement</item>
+        <item>DMV Registration</item>
+    </string-array>
+
+    <string-array name="Length_Insurance">
+        <item>Length of Insurane</item>
+        <item>6 Month</item>
+        <item>1 Year</item>
+        <item>2 OR More</item>
+    </string-array>
+
+
+    <string-array name="Select_Car">
+        <item>Type of Car</item>>
+        <item>Black Car</item>
+        <item>SHL Green Cab</item>
+        <item>Car Service</item>
+        <item>Luxury Base</item>
+        <item>Corporation</item>
+    </string-array>
+
+
+    <string-array name="For_sale">
+        <item>Type of Car</item>
+        <item>Black Car</item>
+        <item>Car SUV</item>
+        <item>Luxury</item>
+        <item>Yellow Medallion</item>
+    </string-array>
+
+    <string-array name="For_Rent">
+        <item>Type of Car</item>
+        <item>Black Car</item>
+        <item>Car SUV</item>
+        <item>Luxury</item>
+        <item>Yellow Medallion</item>
+    </string-array>
+
+
+    <string name="title_activity_select_language">Select Language</string>
+    <string name="title_activity_create_account">Registration / Login</string>
+    <string name="title_activity_registration_form">Registration Form</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_select_option">Select Option</string>
+    <string name="title_activity_insurance">TLC Insurance</string>
+    <string name="title_activity_tlc_document">TLC Document</string>
+    <string name="title_activity_tlc_summons">TLC Summons</string>
+    <string name="title_activity_tcl_car_purchase">TLC Buy / Rent / Sale Car</string>
+    <string name="title_activity_report_accident">Report Accident</string>
+
+    <string name="title_activity_new_vehicle">New Vehicle</string>
+    <string name="title_activity_tlc_insurance">TLC Insurance</string>
+    <string name="title_activity_personal_insurance">Personal Insurance</string>
+    <string name="title_activity_new_summon">New Summon</string>
+    <string name="title_activity_monthly_monitoring">Monthly Monitoring</string>
+    <string name="title_activity_file_apeal">File Appeal</string>
+    <string name="title_activity_car_purchase">TLC Buy / Rent / Sale Car</string>
+    <string name="title_activity_report_accident_form">Report Accident</string>
+    <string name="title_activity_update_replace_driver">Fleet Management</string>
+    <string name="title_activity_summon_update">Scheduled Summons/Result</string>
+    <string name="title_activity_for_purchase">For Purchase / Rent</string>
+    <string name="title_activity_add_driver">Add Driver</string>
+    <string name="title_activity_remove_driver">Remove Driver</string>
+    <string name="title_activity_current_driver_list">Driver List</string>
+    <string name="title_activity_listof_vehicleand_vin_numbers">List of Vehicle</string>
+    <string name="title_activity_individuals_corporation_partnership">
+        Individuals Applicant
+    </string>
+    <string name="title_activity_corporation_applicant">Corporation Applicant</string>
+    <string name="title_activity_partnership_applicant">Partnership Applicant</string>
+    <string name="title_activity_llcapplicant">LLC Applicant</string>
+    <string name="title_activity_pay_fine">Message</string>
+    <string name="title_activity_add_vehicle">Add Vehicle</string>
+    <string name="title_activity_navigation">Options</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_schedule_summon">Schedule Summon</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_thank_you_screen">Thank You!</string>
+    <string name="title_activity_remove_vehicle">Remove Vehicle</string>
+
+
+    <string name="title_activity_tcl_car_rental">TLC Car Rental</string>
+    <string name="title_activity_tcl_splash_screen">TLC SplashScreen</string>
+    <string name="title_activity_applicant_information">New Vehicle</string>
+    <string name="title_activity_vehicle_information">Vehicle Information</string>
+    <string name="title_activity_transfer_application">Transfer Application</string>
+    <string name="title_activity_shl_permit_transfer">ShlPermit Transfer</string>
+    <string name="title_activity_mvr">MVR</string>
+    <string name="title_activity_fast_quote">Fast Quote</string>
+    <string name="title_activity_car_rental">Car Rental</string>
+    <string name="title_activity_wheel_chair_class">Wheel Chair Class</string>
+    <string name="title_activity_six_hrdrivng_class">Six HR Drivng Class</string>
+    <string name="title_activity_for_sale">For Sale</string>
+    <string name="title_activity_for_rent">For Rent</string>
+    <string name="title_activity_radion_yellow_medallion">Message</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_edit_profile">EditProfile</string>
+    <string name="title_activity_alert_dialog">AlertDialog</string>
+    <string name="title_activity_current_driver_list_custom_adapter">
+        CurrentDriverListCustomAdapter
+    </string>
+    <string name="title_activity_invoice">Invoice</string>
+
+
+</resources>

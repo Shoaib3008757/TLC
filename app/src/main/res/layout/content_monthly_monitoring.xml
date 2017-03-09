@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".com.ranglerz.tlc.tlc.Summons.MonthlyMonitoring"
+    tools:showIn="@layout/activity_monthly_monitoring"
+    >
+
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/internetconnection"-->
+        <!--android:textColor="@android:color/holo_red_dark"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:id="@+id/internetConnectivityMonthlyMonitoring"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="30dp"/>-->
+
+
+    <!--<EditText-->
+        <!--android:layout_width="300dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/noOfCarsMonthlyMonitoring"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:hint="@string/noOfCars"-->
+        <!--android:layout_below="@+id/internetConnectivityMonthlyMonitoring"-->
+        <!--android:layout_marginTop="32dp"-->
+        <!--android:textSize="20dp"-->
+
+
+        <!--/>-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MonthlyMonitoringtext"
+        android:layout_alignParentTop="true"
+        android:text="@string/monthly"
+        android:textSize="26sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/companynamemonthlyWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MonthlyMonitoringtext"
+            android:layout_centerHorizontal="true">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/companynamemonthly"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/companyname"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:layout_below="@+id/MonthlyMonitoringtext"
+        android:textSize="20dp" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/basenumbermonthlyWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/companynamemonthlyWrapper"
+            android:layout_centerHorizontal="true">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/basenumbermonthly"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/basenumber"
+        android:inputType="text"
+        android:layout_below="@+id/companynamemonthly"
+        android:textSize="20dp"
+
+
+        />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/diamondnumbermonthlyWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/basenumbermonthlyWrapper"
+            android:layout_centerHorizontal="true">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/diamondnumbermonthly"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/Diamondno"
+        android:inputType="text"
+        android:layout_below="@id/basenumbermonthly"
+        android:textSize="20dp"
+
+
+        />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/medallionplatemonthlyWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/diamondnumbermonthlyWrapper"
+            android:layout_centerHorizontal="true">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/medallionplatemonthly"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/medallionplate"
+        android:maxLength="8"
+        android:inputType="text"
+        android:layout_below="@+id/diamondnumbermonthly"
+        android:textSize="20dp"
+
+
+        />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/fleetmonthlyWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/medallionplatemonthlyWrapper"
+            android:layout_centerHorizontal="true">
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/fleetmonthly"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/fleetmedallion"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:layout_below="@+id/medallionplatemonthly"
+        android:textSize="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/numberofvehicleWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fleetmonthlyWrapper"
+            android:layout_centerHorizontal="true">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/numberofvehicle"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/numberofvehicle"
+        android:layout_below="@+id/fleetmonthly"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textSize="20dp"/>
+
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!--<Spinner-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/payment"-->
+        <!--android:background="@drawable/dropdown_arrow_drawable"-->
+        <!--style="@style/spinner_style"-->
+        <!--android:spinnerMode="dropdown"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_below="@+id/numberofvehicleWrapper"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:textSize="20dp">-->
+    <!--</Spinner>-->
+
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/morethensixtyWrapper"-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/payment"-->
+            <!--android:layout_centerHorizontal="true">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/morethensixty"-->
+                <!--android:layout_width="300dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/payment"-->
+                <!--android:hint="Enter Number of Car"-->
+                <!--android:inputType="text"-->
+                <!--android:textSize="20dp"-->
+                <!--/>-->
+
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/monthlyaddcomentWrapper"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numberofvehicleWrapper"
+            android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/monthlyaddcoment"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/payment"
+            android:hint="@string/addcomment"
+            android:inputType="textMultiLine"
+            android:lines="8"
+            android:minLines="1"
+            android:gravity="top|left"
+            android:maxLines="10"
+            android:textSize="20dp"
+            android:scrollbars="vertical"
+            android:layout_marginTop="20dp"
+            />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submitbtn"
+        android:id="@+id/submitMonthlyMonitoring"
+        android:layout_below="@+id/monthlyaddcomentWrapper"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/radious"
+        android:textColor="@color/buttoncolor"
+        android:layout_marginTop="30dp"
+        />
+
+
+    </RelativeLayout>
+</ScrollView>
+
+</RelativeLayout>

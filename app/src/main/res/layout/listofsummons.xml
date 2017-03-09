@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/summontableid">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summontableidlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/summon">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summontype"
+                    android:textSize="15sp"
+                    android:text="Summon Type:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summontypelist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/first">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summonno"
+                    android:textSize="15sp"
+                    android:text="Summon Number:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summonlistlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/second">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summondataate"
+                    android:textSize="15sp"
+                    android:text="Summon date:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/summondataatelist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/third">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hearinglocationsummon"
+                    android:textSize="15sp"
+                    android:text="Hearing Location:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hearinglocationsummonlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/forth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlclicencesummon"
+                    android:textSize="15sp"
+                    android:text="TLC License:"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlclicencesummonlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+
+                    />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fifth">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/platemedallion"
+                    android:textSize="15sp"
+                    android:text="Plata / Medallion: "
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/platemedallionlist"
+                    android:textSize="15sp"
+                    android:paddingBottom="2dip"
+                    android:paddingTop="6dip"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+
+                    />
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="0dp"
+            >
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/schedulesummonresultbutton"
+                android:text="Schedule"
+                android:focusable="false"
+                android:background="@drawable/radious"
+                android:textColor="@color/buttoncolor"
+
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
